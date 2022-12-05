@@ -2,6 +2,7 @@ const imagemHero = document.querySelector('.foto-hero');
 const mensagemUsuario = document.querySelector('.mensagem-usuario');
 const nomeUsuario = document.querySelector('.nome-usuario');
 const imagemUsuario = document.querySelector('.imagem-usuario');
+const mensagemCliente = document.querySelector('textarea');
 
 const comentariosUsuarios = [
   {
@@ -14,7 +15,7 @@ const comentariosUsuarios = [
   },
   {
     nome: 'Elizandra Martins',
-    comentario: 'Excelente atendimento e material de qualidade 🤩'
+    comentario: 'Excelente atendimento e material de qualidade 🤩.'
   },
   {
     nome: 'Silvana BQ',

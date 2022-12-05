@@ -286,7 +286,7 @@ main {
 
     margin-top: 40px;
     width: 1336px;
-    height: 400px;
+    height: 450px;
     /* background-image: url(./assets/fundo.jpeg); */
 }
 
@@ -373,11 +373,148 @@ h5 a {
     flex-direction: row;
 
     gap: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background-color: #3e74a1;
+}
+
+.caixa-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1336px;
+
+}
+
+.fale-conosco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fale-conosco h1 {
+    align-self: center;
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: "Signika Negative";
+
+    color: white;
+}
+
+.caixa-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 20px;
+    font-family: "Signika Negative";
+    color: white;
+
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 500px;
+    height: 30px;
+
+    border: 0px;
+
+    font-size: 20px;
+    font-family: "Signika Negative";
+
+    border-radius: 5px;
+}
+
+.botao-enviar {
+    width: 200px;
+    height: 50px;
+
+    font-size: 20px;
+    font-family: "Signika Negative";
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    color: black;
+    border: 2px solid black;
+
+    margin: 20px 0;
+}
+
+.botao-enviar:hover {
+
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-family: "Signika Negative";
+}
+
+.informacoes-de-contato {
+    margin: 15px 0;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+
+.informacoes-de-contato h2 {
+    font-size: 20px;
+    font-family: "Signika Negative";
+    color: white;
+}
+
+.informacoes-de-contato span {
+    font-size: 20px;
+    font-family: "Signika Negative";
+    color: white;
+}
+
+.informacoes-de-contato a {
+    text-decoration: none;
+}
+
+.informacoes-de-contato img {
+    width: 20px;
+}
+
+.informacoes-de-desenvolvimento {
+    margin-bottom: 10px;
+}
+
+.informacoes-de-desenvolvimento h3 {
+    font-size: 20px;
+    font-family: "Signika Negative";
+    color: white;
 }
